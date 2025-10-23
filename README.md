@@ -1,13 +1,16 @@
-🧠 Smart Email Assistant – Chrome Extension
+# React + Vite
 
-An AI-powered Gmail productivity tool designed to generate real-time, context-aware email replies using Google Gemini API.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Built with a robust Java Spring Boot backend and a responsive React-based frontend, this extension ensures sub-second performance and seamless Gmail integration.
+Currently, two official plugins are available:
 
-🔹 Highlights
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🧩 Backend: Java Spring Boot with REST APIs ensuring 100% reliable data flow.
+## React Compiler
 
-🤖 AI Integration: Google Gemini API for intelligent, personalized responses — cutting manual email effort by up to 40%.
+The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-⚡ Frontend: React, JavaScript, and Chrome Extension APIs for smooth and native Gmail experience.
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
