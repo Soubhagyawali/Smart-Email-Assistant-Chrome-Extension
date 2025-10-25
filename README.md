@@ -27,10 +27,6 @@ An AI-powered email assistant that generates contextual, professional replies us
 
 ---
 
-## Architecture Overview
-
-![Smart Email Reply Assistant Client](src/main/resources/static/AI-Email-Assistant.jpeg)  
-![Smart Email Reply Assistant Email Web Extension](src/main/resources/static/EmailWebExtension.jpeg)
 
 1. **Frontend**
     - Provides a user-friendly UI with input fields and a tone selection dropdown
