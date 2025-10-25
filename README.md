@@ -27,6 +27,9 @@ An AI-powered email assistant that generates contextual, professional replies us
 
 ---
 
+---![1000250946]
+(https://github.com/user-attachments/assets/4498bca9-048c-4c4d-83c8-739b494079cb)
+
 
 1. **Frontend**
     - Provides a user-friendly UI with input fields and a tone selection dropdown
@@ -67,38 +70,5 @@ An AI-powered email assistant that generates contextual, professional replies us
 5. AI-generated reply (based on email + raw reply + selected tone) will appear in the message box  
 6. Make edits if needed and send  
 
----![1000250946](https://github.com/user-attachments/assets/4498bca9-048c-4c4d-83c8-739b494079cb)
-Smart Email Reply Assistant Email Web Extension
 
-Frontend
 
-Provides a user-friendly UI with input fields and a tone selection dropdown
-Displays AI-generated replies with an option to edit before copying or sending
-Static assets including images are located in:
-src/main/resources/static
-Example image: AI-Email-Assistant.png
-Backend
-
-Accepts email content, raw reply, and tone/style preference via REST API
-Processes the request and communicates with the Gemini API
-Returns a generated response based on the given context and tone
-Browser Extension
-
-Integrates into Gmail UI
-Captures email content and optional raw reply
-Sends both to the backend along with the selected tone
-Inserts the AI-generated reply directly into the Gmail compose box
-How to Use
-Web App
-Paste a received email into the input field
-(Optional) Add your own raw reply if you want it polished into a specific tone
-Select the desired tone or style (e.g., formal, friendly, urgent)
-Click "Generate"
-Review and copy the response into your actual email client
-Gmail Extension
-Install the Chrome extension
-Open Gmail and start composing a reply
-(Optional) Draft your own reply in the Gmail editor before generating
-Click the "Generate with AI" button
-AI-generated reply (based on email + raw reply + selected tone) will appear in the message box
-Make edits if needed and send
