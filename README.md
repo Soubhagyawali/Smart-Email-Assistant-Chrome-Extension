@@ -27,9 +27,7 @@ An AI-powered email assistant that generates contextual, professional replies us
 
 ---
 
----![1000250946]
-(https://github.com/user-attachments/assets/4498bca9-048c-4c4d-83c8-739b494079cb)
-
+---
 
 1. **Frontend**
     - Provides a user-friendly UI with input fields and a tone selection dropdown
